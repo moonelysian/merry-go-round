@@ -1,6 +1,6 @@
-# webpack-boilerplate
+# 로고가 둥글게둥글게
 
-webpack boilterplate 입니다.<br><br> prettier과 eslint가 설정되어있습니다. <br><br> 다운로드 혹은 git clone 하여 `npm install` 실행 후 사용하시면 됩니다.
+스크롤을 내리면 로고가 둥글게 둥글게 돌아가요. 논픽션 홈페이지 들어갔다가 이뻐보여서 따라서 만들어봤어요.
 
 ## Installation
 
