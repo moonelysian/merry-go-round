@@ -1,0 +1,2 @@
+(()=>{"use strict";const t=document.querySelector("img");let e=0,o=0;window.addEventListener("scroll",(()=>{const r=window.scrollY,s=e>r?o-.05:o+.05;t.style.transform=`rotate(${s}rad)`,e=r,o=s}))})();
+//# sourceMappingURL=bundle.js.map
