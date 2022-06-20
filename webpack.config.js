@@ -21,7 +21,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "project",
+      title: "round-round",
       template: "./index.html",
       inject: "body",
     }),
@@ -33,6 +33,10 @@ module.exports = {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
+       {
+        test: /\.png$/,
+        type: 'asset/inline'
+      }
     ],
   },
   optimization: {

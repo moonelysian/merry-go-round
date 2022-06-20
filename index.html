@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
 
-<head>
-    <title>
-        <%= htmlWebpackPlugin.options.title %>
-    </title>
-</head>
-
-<body>
-
-</body>
-
+  <body>
+    <div class="wrapper">
+      <div class="logo-wrapper">
+        <img class="logo" src="<%=require('./src/image/logo.png') %>" />
+      </div>
+    </div>
+  </body>
 </html>
